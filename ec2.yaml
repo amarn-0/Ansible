@@ -7,6 +7,6 @@
         name: "{{ item }}"
         image_id: "ami-0220d79f3f480ecf5"
         instance_type: "t3.micro"
-        security_group: ["sg-01d559ae05d4950f8"]
+        security_group: "sg-01d559ae05d4950f8"
       loop:
        - mysql

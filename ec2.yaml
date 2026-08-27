@@ -9,4 +9,4 @@
         instance_type: "t3.micro"
         security_group: ["sg-01d559ae05d4950f8"]
         loop:
-        - mysql
+          - mysql

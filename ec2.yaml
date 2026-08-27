@@ -10,3 +10,8 @@
         security_group: "sg-01d559ae05d4950f8"
       loop:
        - mysql
+      register: ec2-output
+
+    - name: print ec-output
+      ansible.builtin.debug:
+        msg: "ec2-output"
